@@ -21,8 +21,7 @@ export interface OcrResult {
 
 type ProgressCallback = (progress: number) => void;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type TesseractWorker = any;
+type TesseractWorker = any; // Tesseract worker type is not exported from the package
 
 let workerPromise: Promise<TesseractWorker> | null = null;
 
