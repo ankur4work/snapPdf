@@ -34,10 +34,10 @@ export function Footer() {
             <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-slate-500">Product</h3>
             <ul className="space-y-2.5 text-sm">
               {[
-                { label: "How it works", href: "#" },
-                { label: "Pricing", href: "#pricing" },
-                { label: "Privacy policy", href: "#" },
-                { label: "Terms of service", href: "#" },
+                { label: "How it works", href: "/how-it-works" },
+                { label: "Pricing", href: "/pricing" },
+                { label: "Privacy policy", href: "/privacy" },
+                { label: "Terms of service", href: "/terms" },
               ].map(({ label, href }) => (
                 <li key={label}>
                   <Link href={href} className="transition-colors hover:text-slate-200">
