@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(node:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(rm:*)",
+      "Bash(cmd:*)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}
